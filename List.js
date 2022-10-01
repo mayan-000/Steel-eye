@@ -20,8 +20,8 @@ const WrappedSingleListItem = ({
 };
 
 WrappedSingleListItem.propTypes = {
-  index: PropTypes.number,
-  isSelected: PropTypes.bool,
+  index: PropTypes.number.isRequired,
+  isSelected: PropTypes.bool.isRequired,
   onClickHandler: PropTypes.func.isRequired,
   text: PropTypes.string.isRequired,
 };
