@@ -1,10 +1,11 @@
-Question 1:
+## Question 1:
+  
   This simple list shows items passed in as props from parent.
   With each ListItem as a object of structure (items = [{text: string}]).
   Another thing is, when any of list item is clicked the color of clicked item changes to green, otherwise it will remain red.
   And if items prop is changed at any point, no listItem is considered selected.
 
-Question 2: 
+## Question 2: 
 
   a.) In Single List Item, 
       
@@ -35,7 +36,8 @@ Because isSelected is required to know which item is selected,
 and 
 index is required to know the index of clicked list item.
 
-Question 3:
+## Question 3:
+
   I have modified the code to work properly.
   Bugs have been removed.
   Updated file is persent in List.js file. 
